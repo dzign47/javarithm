@@ -3,8 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package helloworddev;
-
-import java.io.IOException;
+//import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -16,13 +15,12 @@ public class HelloWordDev {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) /*throws IOException*/{
        Scanner ler = new Scanner(System.in);
         System.out.print("Digite seu nome: ");
-        
         String nome=ler.next();
-       Runtime.getRuntime().exec("clear");
-        System.out.println("Hello, "+nome+" \nWelcome to Java World!");
+      // Runtime.getRuntime().exec("clear");----> Comando para limpar tela, Att: no work!!!
+        System.out.println("Hello, "+nome+" \nWelcome to Java World!\n Vamos Codar?");
     
     }
     
